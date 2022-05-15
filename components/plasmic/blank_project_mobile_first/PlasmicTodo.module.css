@@ -1,0 +1,43 @@
+.root {
+  flex-direction: row;
+  background: rgba(244, 244, 244, 1);
+  height: auto;
+  display: flex;
+  position: relative;
+  border-radius: 4px;
+  padding: 10px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 10px;
+}
+.textcontent2 {
+  display: block;
+  font-size: 9px;
+  font-family: "SUIT Variable";
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  width: 10px;
+  height: 10px;
+  display: block;
+  overflow: hidden;
+  flex-shrink: 0;
+}

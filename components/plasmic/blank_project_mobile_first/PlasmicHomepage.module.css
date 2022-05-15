@@ -1,0 +1,177 @@
+.root {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  padding: 0px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 16px;
+}
+._ {
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  border-radius: 12px;
+  padding: 20px;
+}
+._ > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 12px);
+  height: calc(100% + 12px);
+}
+._ > :global(.__wab_flex-container) > *,
+._ > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+._ > :global(.__wab_flex-container) > picture > img,
+._ > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 12px;
+}
+.text {
+  display: block;
+  font-size: 10px;
+  font-family: "SUIT Variable";
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.itertodos {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+}
+.itertodos > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 6px);
+  height: calc(100% + 6px);
+}
+.itertodos > :global(.__wab_flex-container) > *,
+.itertodos > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.itertodos > :global(.__wab_flex-container) > picture > img,
+.itertodos
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 6px;
+}
+.todo___5Yrmf:global(.__wab_instance) {
+  position: relative;
+  align-self: stretch;
+}
+.todo__wNc6:global(.__wab_instance) {
+  position: relative;
+  align-self: stretch;
+}
+.frame6 {
+  flex-direction: row;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+}
+.frame6 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.frame6 > :global(.__wab_flex-container) > *,
+.frame6 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame6 > :global(.__wab_flex-container) > picture > img,
+.frame6
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 4px;
+}
+.frame5 {
+  flex-direction: row;
+  background: rgba(244, 244, 244, 1);
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  border-radius: 4px;
+  padding: 10px;
+}
+.frame5 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.frame5 > :global(.__wab_flex-container) > *,
+.frame5 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame5 > :global(.__wab_flex-container) > picture > img,
+.frame5
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.editableonKeypressonInputChange {
+  opacity: 0.6;
+  display: block;
+  font-size: 9px;
+  font-family: "SUIT Variable";
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.img {
+  flex-direction: row;
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 31px;
+  height: 31px;
+  display: flex !important;
+  flex-shrink: 0;
+  border-radius: 4px;
+  padding: 2px;
+}
+.img > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.img > :global(.__wab_flex-container) > *,
+.img > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.img > :global(.__wab_flex-container) > picture > img,
+.img > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 10px;
+}
